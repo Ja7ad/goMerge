@@ -9,9 +9,6 @@ import (
 const numOfFile = 5
 
 func Test_Merge(t *testing.T) {
-	done := make(chan struct{})
-	defer close(done)
-
 	// create file with random data
 	for i := 0; i < numOfFile; i++ {
 		buf := make([]byte, 10000)
