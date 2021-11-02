@@ -1,6 +1,8 @@
 # goMerge
 Merge some files in a path with custom extension in golang
 
+![goMerge](./file.jpg)
+
 ## Feature
 - Walk in a path with a goroutine using parallelism
 - Merge files with custom extension
