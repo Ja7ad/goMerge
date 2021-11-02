@@ -1,4 +1,4 @@
-package fileMerger
+package goMerge
 
 import (
 	"fmt"
