@@ -23,9 +23,6 @@ import (
 )
 
 func main() {
-	done := make(chan struct{})
-	defer close(done)
-
 	err := fileMerger.Merge("./test", ".log", "./test/merged.txt", true)
 	if err != nil {
 		log.Fatal(err)
