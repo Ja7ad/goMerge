@@ -1,4 +1,6 @@
 # goMerge
+[![Go Reference](https://pkg.go.dev/badge/github.com/Ja7ad/goMerge.svg)](https://pkg.go.dev/github.com/Ja7ad/goMerge)
+
 Merge some files in a path with custom extension in golang
 
 ![goMerge](./file.jpg)
